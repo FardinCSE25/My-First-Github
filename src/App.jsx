@@ -8,6 +8,7 @@ function App() {
 
   return (
     <>
+    {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, natus?</p> */}
      <Suspense fallback={<p>Loading.....</p>}>
       <Countries countriesPromise={countriesPromise}></Countries>
      </Suspense>

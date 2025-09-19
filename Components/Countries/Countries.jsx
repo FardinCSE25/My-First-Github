@@ -18,7 +18,7 @@ const Countries = ({ countriesPromise }) => {
         The Countries : {countries.length}
       </h1>
       <h2 style={{ textAlign: "center" }}>Total Visited Countries : {visitedCountries.length}</h2>
-      <div className="countries">
+      <div className="lg:grid lg:grid-cols-3">
         {countries.map((country) => (
           <Country key={country.cca3.cca3} country={country} handleVisitedCountries={handleVisitedCountries}></Country>
         ))}
