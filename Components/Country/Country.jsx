@@ -34,7 +34,7 @@ const Country = ({ country, handleVisitedCountries }) => {
         {country.area.area > 300000 ? "(Big Country)" : "(Small Country)"}
       </p>
       <button className={`${visited && 'country-visited'}`} onClick={handleVisited}>
-        {visited ? "Visited" : "Not Visited"}
+        {visited ? "Know" : "Don't Know"}
       </button>
     </div>
   );
